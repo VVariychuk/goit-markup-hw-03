@@ -20,6 +20,7 @@ body {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -27,7 +28,7 @@ body {
 ul {
   list-style-type: none;
 }
-a {
+.cards-link {
   text-decoration: none;
   color: var(--primary-background-color);
 }
@@ -35,7 +36,6 @@ a {
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -58,19 +58,11 @@ a {
 
 .logo-link {
   text-decoration: none;
-  /*position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;*/
 }
 .hero {
   background: var(--primary-background-color);
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
 }
+
 .hero-title {
   color: var(--wite-color);
   font-size: 44px;
@@ -82,25 +74,19 @@ a {
   font-weight: 900;
 }
 
-.link-button {
-  background-color: var(--accent-color);
-  margin-left: 700px;
-  padding-top: 10px;
-  width: 200px;
-  height: 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-
 .order-link {
+  display: inline-block;
+  background-color: var(--accent-color);
   color: var(--wite-color);
   text-decoration: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  margin-top: 10px;
-  margin-left: 32px;
+  margin-left: 700px;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .navigation {
@@ -141,6 +127,7 @@ a {
 .button:active,
 .button:visited {
   background: var(--accent-color);
+  color: var(--wite-color);
 }
 
 .cards-items {
@@ -149,25 +136,23 @@ a {
 
 .footer-bg {
   background: var(--primary-background-color);
-  width: 1600px;
-  height: 252px;
-  left: 0px;
 }
 
 .footer-adress {
   color: var(--wite-color);
   font-size: 14px;
   line-height: 1.7;
+  padding-top: 20px;
 }
 .footer-adress-text {
   padding-top: 60px;
+  padding-bottom: 60px;
   padding-left: 215px;
 }
 
 .footer-link {
   color: var(--contacts-rgba);
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
