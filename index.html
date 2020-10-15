@@ -18,30 +18,32 @@
   <body>
     <!-- Shapka -->
     <header>
+      <div class="container">
       <nav>
-        <a class="logo-link" href="./index.html">
-          <span class="logo">Web</span><span class="logo-end">Studio</span></a
-        >
-
-        <ul>
-          <li><a class="navigation current" href="./index.html">Студия</a></li>
-          <li><a class="navigation" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="navigation" href="">Контакты</a></li>
+        <ul  class="nav-links">
+          <li class="header-list"><a class="logo-link" href="./index.html">
+              <span class="logo">Web</span><span class="logo-end">Studio</span>
+              </a>
+          </li>
+          <li class="header-list"><a class="navigation current" href="./index.html">Студия</a></li>
+          <li class="header-list"><a class="navigation" href="./portfolio.html">Портфолио</a></li>
+          <li class="header-list"><a class="navigation" href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li>
+      <ul class="header-contacts">
+        <li class="header-list">
           <a class="navigation contacts" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
-        <li>
+        <li class="header-list">
           <a class="navigation contacts" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
         </li>
       </ul>
+      </div>
     </header>
 
     <main>
@@ -53,9 +55,10 @@
 
       <!-- Advantages -->
       <section>
-        <h2 class="secondary-title">Наши Преимущества</h2>
+        <div class="container">
+        <h2 class="secondary-title" hidden>Наши Преимущества</h2>
       
-        <ul>
+        <ul class="adantage-list">
           <li>
             <h3 class="tertiary-title">Внимание к деталям</h3>
             <p class="cards-items">
@@ -85,13 +88,15 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
 
       <!-- work examples -->
-      <section>
+      <section class="work-examles-sct">
+        <div class="container">
         <h2 class="secondary-title">Чем мы занимаемся</h2>
       
-        <ul>
+        <ul class="work-examples">
           <li>
             <img src="./images/desktop.jpg" alt="Рабочий Стол" width="370" />
           </li>
@@ -102,33 +107,36 @@
             <img src="./images/grahical-tablet.jpg" alt="Графический планшет" width="370" />
           </li>
         </ul>
+        </div>
       </section>
 
       <!-- Our team -->
-      <section>
+      <section class="our-team">
+        <div class="container">
         <h2 class="secondary-title">Наша команда</h2>
-        <ul class="our-team">
-          <li>
+        <ul class="team-list">
+          <li class="items">
             <a href=""><img src="./images/igor-demiyanenko.jpg" alt="Игорь Демьяненко" width="270" /></a>
             <h3 class="teams-title">Игорь Демьяненко</h3>
             <p class="cards-items">Product designer</p>
           </li>
-          <li>
+          <li class="items">
             <a href=""><img src="./images/olga-repina.jpg" alt="Ольга Репина" width="270" /></a>
             <h3 class="teams-title">Ольга Репина</h3>
             <p class="cards-items">Frontend Developer</p>
           </li>
-          <li>
+          <li class="items">
             <a href=""><img src="./images/nikolay-tarasov.jpg" alt="Николай Тарасов" width="270" /></a>
             <h3 class="teams-title">Николай Тарасов</h3>
             <p class="cards-items">Marketing</p>
           </li>
-          <li>
+          <li class="items">
             <a href=""><img src="./images/mihail-ermakov.jpg" alt="Михаил Ермаков" width="270" /></a>
             <h3 class="teams-title">Михаил Ермаков</h3>
             <p class="cards-items">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
