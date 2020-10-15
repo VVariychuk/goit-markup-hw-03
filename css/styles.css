@@ -232,11 +232,13 @@ ul {
 }
 
 .footer-link {
+  display: inline-block;
   color: var(--contacts-rgba);
   font-style: normal;
   text-decoration: none;
   font-size: 14px;
   line-height: 1.7;
+  margin-top: 9px;
 }
 .line {
   border: 1px solid #ececec;
