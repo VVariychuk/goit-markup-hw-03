@@ -103,7 +103,6 @@ ul img {
   background: var(--primary-background-color);
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -217,6 +216,8 @@ ul img {
 
 .footer-bg {
   background: var(--primary-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-adress {
@@ -227,14 +228,12 @@ ul img {
   padding-top: 20px;
 }
 .footer-adress-text {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
 
 .footer-link {
@@ -246,20 +245,25 @@ ul img {
   line-height: 1.7;
   margin-top: 9px;
 }
-.line {
+/* .line {
   border: 1px solid #ececec;
-}
+} */
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
-header > .container {
-  display: flex;
+
+header {
+  border-bottom: 1px solid #ececec;
   padding-bottom: 25px;
   padding-top: 24px;
+}
+
+header > .container {
+  display: flex;
 }
 .nav-links {
   display: flex;
@@ -278,6 +282,10 @@ header > .container {
 .nav-links > .header-list:first-child {
   margin-left: 0px;
   margin-right: 93px;
+}
+
+.adventages {
+  padding-top: 94px;
 }
 
 .adantage-list {
@@ -301,7 +309,11 @@ header > .container {
 .flex-list > li {
   margin-left: 8px;
 }
-body > .container {
+/* body > .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+} */
+.portfolio-screen {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -315,6 +327,8 @@ body > .container {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  background: var(--wite-color);
+  border: 1px solid #eeeeee;
 }
 
 .portfolio > .items:nth-child(3n) {
@@ -335,6 +349,7 @@ p + h3 {
 .items-descrition {
   padding: 20px 24px 20px 24px;
 }
+
 .work-examples {
   display: flex;
   padding: 0px;
@@ -366,6 +381,15 @@ p + h3 {
 }
 .team-list > li:first-child {
   margin-left: 0px;
+}
+
+.team-descrition {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team-descrition p {
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 /* section,
 ul,
