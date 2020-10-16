@@ -187,6 +187,11 @@ ul img {
   color: var(--secondary-text-color);
 }
 
+.adantage-list p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
 .adantage-list .cards-items {
   font-size: 14px;
   line-height: 1.71;
@@ -232,8 +237,8 @@ ul img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .footer-link {
@@ -252,8 +257,8 @@ ul img {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 header {
